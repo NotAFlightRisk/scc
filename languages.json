@@ -6016,11 +6016,11 @@
     ],
     "extensions": ["pp"],
     "line_comment": ["#"],
-    "multi_line": [["=begin", "=end"]],
+    "multi_line": [["/*", "*/"]],
     "quotes": [
       {
-        "end": "\\\"",
-        "start": "\\\""
+        "end": "\"",
+        "start": "\""
       },
       {
         "end": "'",

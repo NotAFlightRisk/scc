@@ -9975,14 +9975,14 @@ var languageDatabase = map[string]Language{
 		ExtensionFile: false,
 		MultiLine: [][]string{
 			{
-				"=begin",
-				"=end",
+				"/*",
+				"*/",
 			},
 		},
 		Quotes: []Quote{
 			{
-				Start:        "\\\"",
-				End:          "\\\"",
+				Start:        "\"",
+				End:          "\"",
 				IgnoreEscape: false,
 				DocString:    false,
 			},
